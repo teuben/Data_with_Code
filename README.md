@@ -51,12 +51,12 @@ and (used to be) preserved by Eric Greisen on his
 
 We will use the following implementations:
 
-1. pure python, using astropy.io.fits to read the data
+1. classic **numpy** python, using astropy.io.fits to read the data (*jupyter notebook*)
 2. python using radio-astro-tools
 3. AIPS ???
-3. CASA
-4. MIRIAD
-5. NEMO
+3. CASA (*casa-python script*)
+4. MIRIAD (*csh shell script*)
+5. NEMO (*bash shell script*)
 
 
 
