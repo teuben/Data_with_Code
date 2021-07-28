@@ -1,18 +1,18 @@
 # Data with Code
 
-A VLA40 exercise.
-
-Old data can "rot". What we really mean by this is that the software has changed,
+Old (FITS) data can "rot". What we really mean by this is that software has changed,
 and despite that there is the once-fits-always-fits principle, it does not work.
 
 The same actually applies to code. Compilers become more strict, and
-old code needs to be clarified. The f77/g77/gfortran evolution has
+old code needs to be clarified and updated. The f77/g77/gfortran evolution has
 shown this, the gnu C compiler has the -std= compiler flag, and Python
-morphed from V2 to V3, with many subtle changes.
+morphed from V2 to V3, with many subtle changes, including in the 3.x series.
 
 ## VLA40 abstract
 
 **Title:   Data needs Code!**
+
+**Authors: Peter Teuben (UMD), Gustaaf van Moorsel (NRAO)
 
 There are plenty of data in our archives. But for many students
 finding these data comes with a hurdle how to get started with an
@@ -30,9 +30,6 @@ We hope to encourage others to do the same for a variety of data, and
 have these published in a standard form. We like to thank Eric Greisen
 to keep good care of these classic data cubes and making this exercise
 possible.
-
-      Peter Teuben & Gustaaf van Moorsel
-	  
 
 ## Outline
 
@@ -52,7 +49,7 @@ and (used to be) preserved by Eric Greisen on his
 We will use the following implementations:
 
 1. classic **numpy** python, using astropy.io.fits to read the data (*jupyter notebook*)
-2. python using radio-astro-tools
+2. python using radio-astro-tools (*jupyter notebook*)
 3. AIPS ???
 3. CASA (*casa-python script*)
 4. MIRIAD (*csh shell script*)
@@ -66,6 +63,6 @@ We will use the following implementations:
 ## References
 
 * http://nbabel.org - N-body code implemented in many languages (and references therein)
-* CASA:
-* MIRIAD:
-* NEMO:
+* CASA: https://casa.nrao.edu/index.shtml
+* MIRIAD: https://github.com/astroumd/miriad
+* NEMO: https://astronemo.readthedoc.io
