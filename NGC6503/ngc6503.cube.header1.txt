@@ -1,0 +1,466 @@
+SIMPLE  =                    T /
+BITPIX  =                  -32 /
+NAXIS   =                    4 /
+NAXIS1  =                  371 /
+NAXIS2  =                  251 /
+NAXIS3  =                   89 /
+NAXIS4  =                    1 /
+EXTEND  =                    T /Tables following main image
+BLOCKED =                    T /Tape may be blocked
+OBJECT  = 'NGC6503 '
+TELESCOP= 'VLA     '
+INSTRUME= 'VLA     '
+OBSERVER= 'AM510   '
+DATE-OBS= '27/02/96'
+DATE-MAP= '17/07/96'
+BSCALE  =    1.00000000000E+00 /REAL = TAPE * BSCALE + BZERO
+BZERO   =    0.00000000000E+00 /
+BUNIT   = 'JY/BEAM '
+EPOCH   =      2.000000000E+03 /EPOCH OF RA DEC
+VELREF  =                    2 />256 RADIO, 1 LSR 2 HEL 3 OBS
+ALTRVAL =    2.60000000000E+04 /ALTENATE FREQ/VEL REF VALUE
+ALTRPIX =      4.600000000E+01 /ALTENATE FREQ/VEL REF PIXEL
+OBSRA   =    2.67250000000E+02 /ANTENNA POINTING RA
+OBSDEC  =    7.01166666667E+01 /ANTENNA POINTING DEC
+RESTFREQ=    1.42040575200E+09 /REST FREQUENCY
+DATAMAX =      1.698352955E-02 /MAX PIXEL VALUE
+DATAMIN =     -3.157205880E-03 /MIN PIXEL VALUE
+CTYPE1  = 'RA---SIN'
+CRVAL1  =    2.67250000000E+02 /
+CDELT1  =     -1.111111138E-03 /
+CRPIX1  =      1.970000000E+02 /
+CROTA1  =      0.000000000E+00 /
+CTYPE2  = 'DEC--SIN'
+CRVAL2  =    7.01166666667E+01 /
+CDELT2  =      1.111111138E-03 /
+CRPIX2  =      9.800000000E+01 /
+CROTA2  =      0.000000000E+00 /
+CTYPE3  = 'FREQ    '
+CRVAL3  =    1.42027590166E+09 /
+CDELT3  =      2.441406250E+04 /
+CRPIX3  =      4.600000000E+01 /
+CROTA3  =      0.000000000E+00 /
+CTYPE4  = 'STOKES  '
+CRVAL4  =    1.00000000000E+00 /
+CDELT4  =      1.000000000E+00 /
+CRPIX4  =      1.000000000E+00 /
+CROTA4  =      0.000000000E+00 /
+HISTORY AIPS HEADER2  WTNOISE  =  1.194289804E+00 /AIPS Catalog Header Keyword
+HISTORY AIPS HEADER2  PARANGLE = -1.725243530E+02 /AIPS Catalog Header Keyword
+HISTORY AIPS HEADER2  ZENANGLE =  3.631626892E+01 /AIPS Catalog Header Keyword
+HISTORY FILLM / Image created by user   36 at 01-JUL-1996   10:37:34
+HISTORY FILLM OUTNAME='27/02/96    '   OUTCLASS='LINE  '
+HISTORY FILLM OUTSEQ=    1   OUTDISK=  1
+HISTORY FILLM  INTAPE =  3, NFILES =    0
+HISTORY FILLM  BAND = 'L', QUAL =     0,  CALC = '     '
+HISTORY FILLM  VLAMODE ='  '
+HISTORY FILLM  / Control program ID =
+HISTORY FILLM  / VLA conf. = C
+HISTORY FILLM  / correlator mode = 2AC
+HISTORY FILLM  / AP options =
+HISTORY FILLM /TIMERANG = beginning to end
+HISTORY FILLM  BCHAN =    1 ECHAN =  127 / Spectral channels
+HISTORY FILLM  CPARM(1) =   .000 / Integration (sec)
+HISTORY FILLM  CPARM(2) =   2. / Ignore Modcomp flags
+HISTORY FILLM  CPARM(3) =   3. / Max. IF stat. to pass
+HISTORY FILLM  CPARM(4) =   0. / .lt. 0 => no shadow flag
+HISTORY FILLM  CPARM(6) =   0. / Subarray
+HISTORY FILLM  CPARM(7) =      .000 / FQ entry tolerance
+HISTORY FILLM  CPARM(8) =    .50 / CL table time increment
+HISTORY FILLM  / Telescope = VLA      Program = AM510
+HISTORY FILLM  RELEASE = '31DEC99 '
+HISTORY TACOP Release ='31DEC99 '  /********* Start 01-JUL-1996   14:44:46
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   1 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 01-JUL-1996   14:45:05
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='CL' INVERS=   2 OUTVERS=   2
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY BPASS Release ='31DEC99 '  /********* Start 01-JUL-1996   14:59:51
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =   -1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPASS Release ='31DEC99 '  /********* Start 01-JUL-1996   15:14:08
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =   -1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPASS Release ='31DEC99 '  /********* Start 01-JUL-1996   15:28:50
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =   -1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPASS Release ='31DEC99 '  /********* Start 02-JUL-1996   13:25:16
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =    1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPASS Release ='31DEC99 '  /********* Start 02-JUL-1996   13:27:03
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =    1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPASS Release ='31DEC99 '  /********* Start 02-JUL-1996   13:28:51
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =    1 CALCODE = *
+HISTORY BPASS  FLAGVER =   1 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY TACOP Release ='31DEC99 '  /********* Start 04-JUL-1996   17:27:38
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='CL' INVERS=   2 OUTVERS=   2
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 04-JUL-1996   17:27:46
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   2 OUTVERS=   2
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY BPASS Release ='31DEC99 '  /********* Start 04-JUL-1996   17:32:23
+HISTORY BPASS  /Calibrators included:
+HISTORY BPASS  CALSOUR = '                ','                '
+HISTORY BPASS  QUAL =    1 CALCODE = *
+HISTORY BPASS  FLAGVER =   2 /Flagging table used
+HISTORY BPASS  UVRANGE(1)= 0.00000E+00 /Min. uv used
+HISTORY BPASS  UVRANGE(2)= 0.00000E+00 /Max. uv used
+HISTORY BPASS IN2NAME='            '   IN2CLASS='      '
+HISTORY BPASS IN2SEQ=    0   IN2DISK=  0
+HISTORY BPASS  INVER =     2 /CC file version no.
+HISTORY BPASS  NMAPS =   0 /Number of clean images used
+HISTORY BPASS /TIMERANG = beginning to end
+HISTORY BPASS  SOLINT = 0.0 /Scan average
+HISTORY BPASS  SUBARRAY =   0
+HISTORY BPASS  REFANT =    3 /Reference antenna
+HISTORY BPASS  BCHAN =    1 ECHAN =  127 /Start and stop channels
+HISTORY BPASS  Dividing data by channel 0
+HISTORY BPASS  External channel 0 filename:
+HISTORY BPASS IN3NAME='27/02/96    '   IN3CLASS='CH 0  '
+HISTORY BPASS IN3SEQ=    1   IN3DISK=  1
+HISTORY BPASS  ANTWT=  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0 /Ant. wt
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+HISTORY BPASS         1.0  1.0
+HISTORY BPSMO RELEASE ='31DEC99 '  /********* Start 05-JUL-1996   08:54:04
+HISTORY BPSMO INVER =    1   OUTVER =    2   / In/out BP file version numbers
+HISTORY BPSMO / SCALAR GAUSSIAN smoothing function every   .500 hours
+HISTORY BPSMO FWIDTH=  2.000  FSUPPORT= 10.000   / function width/support hours
+HISTORY BPSMO / SCALAR normalization BCHAN=    1  ECHAN=    0
+HISTORY BPSMO RELEASE ='31DEC99 '  /********* Start 05-JUL-1996   12:50:17
+HISTORY BPSMO INVER =    1   OUTVER =    3   / In/out BP file version numbers
+HISTORY BPSMO / SCALAR GAUSSIAN smoothing function every   .500 hours
+HISTORY BPSMO FWIDTH=  2.000  FSUPPORT= 10.000   / function width/support hours
+HISTORY BPSMO / SCALAR normalization BCHAN=    1  ECHAN=    0
+HISTORY BPSMO RELEASE ='31DEC99 '  /********* Start 05-JUL-1996   13:13:36
+HISTORY BPSMO INVER =    1   OUTVER =    4   / In/out BP file version numbers
+HISTORY BPSMO / SCALAR GAUSSIAN smoothing function every   .500 hours
+HISTORY BPSMO FWIDTH=  2.000  FSUPPORT= 10.000   / function width/support hours
+HISTORY BPSMO / SCALAR normalization BCHAN=    1  ECHAN=    0
+HISTORY BPSMO RELEASE ='31DEC99 '  /********* Start 05-JUL-1996   13:34:24
+HISTORY BPSMO INVER =    1   OUTVER =    2   / In/out BP file version numbers
+HISTORY BPSMO / SCALAR GAUSSIAN smoothing function every   .500 hours
+HISTORY BPSMO FWIDTH=  2.000  FSUPPORT= 10.000   / function width/support hours
+HISTORY BPSMO / SCALAR normalization BCHAN=   16  ECHAN=  112
+HISTORY QUACK RELEASE ='31DEC99 '  /********* Start 11-JUL-1996
+HISTORY QUACK  OPCODE ='BEG '
+HISTORY QUACK  SOURCES = ' ' / All sources
+HISTORY QUACK /TIMERANG = beginning to end
+HISTORY QUACK  ANTENNAS =  0,
+HISTORY QUACK  SUBARRAY =   0
+HISTORY QUACK  Freq. ID =    1
+HISTORY QUACK  FGVER =   2 / FG table
+HISTORY QUACK  REASON = 'BAD 1ST RECORD          ' / Reason for flagging
+HISTORY QUACK  APARM(2) =    .50000 / Bad data at start of scan
+HISTORY QUACK   Flagged    30.33 min. of data in    52 scans
+HISTORY TACOP Release ='31DEC99 '  /********* Start 11-JUL-1996   14:26:41
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='LINE  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   2 OUTVERS=   3
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 11-JUL-1996   15:07:49
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   2 OUTVERS=   0
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 11-JUL-1996   15:08:33
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   1 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    2 /Number of tables to copy
+HISTORY TACOP  / Copied      2 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 11-JUL-1996   15:10:33
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='FG' INVERS=   2 OUTVERS=   2
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 11-JUL-1996   15:18:48
+HISTORY TACOP INNAME='27/02/96    '   INCLASS='CH 0  '
+HISTORY TACOP INSEQ=    1   INDISK=  1
+HISTORY TACOP  INEXT='CL' INVERS=   2 OUTVERS=   2
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY SPLIT RELEASE ='31DEC99 '  /********* Start 11-JUL-1996   15:40:03
+HISTORY SPLIT INNAME='27/02/96    '   INCLASS='LINE  '
+HISTORY SPLIT INSEQ=    1   INDISK=  1
+HISTORY SPLIT OUTNAME='NGC6503     '   OUTCLASS='SPLIT '
+HISTORY SPLIT OUTSEQ=    1   OUTDISK=  2
+HISTORY SPLIT /TIMERANG = beginning to end
+HISTORY SPLIT  STOKES = '    ' / Stokes type
+HISTORY SPLIT  BIF =   1, EIF =   1/ IF range
+HISTORY SPLIT  BCHAN =   1, ECHAN = 127/ Chan range
+HISTORY SPLIT  SUBARRAY =   0
+HISTORY SPLIT  / Edited using FG table version  2
+HISTORY SPLIT  Output data in compressed format
+HISTORY SPLIT  GAINUSE =  2 / CL table
+HISTORY SPLIT  BP correction done, DOBAND =  3
+HISTORY SPLIT  BP correction used BP table  2
+HISTORY SPLIT  Weights not calibrated
+HISTORY SPLIT  /           Previously flagged   flagged by gain         kept
+HISTORY SPLIT  /Partially           16648                7690          16648
+HISTORY SPLIT  /Fully                4904                   0         160687
+HISTORY UVLSF RELEASE ='31DEC99 '  /********* Start 11-JUL-1996   16:03:49
+HISTORY UVLSF INNAME='NGC6503     '   INCLASS='SPLIT '
+HISTORY UVLSF INSEQ=    1   INDISK=  2
+HISTORY UVLSF OUTNAME='NGC6503     '   OUTCLASS='UVLSF '
+HISTORY UVLSF OUTSEQ=    1   OUTDISK=  2
+HISTORY UVLSF BCHAN =   1, ECHAN = 127 / Channel selection
+HISTORY UVLSF SHIFT =-138.67999 ,  -69.00000 / shifts in asec before fit
+HISTORY UVLSF CHANSEL( 1)=    4,   35, 1     / channels fit
+HISTORY UVLSF CHANSEL( 2)=   92,  123, 1     / channels fit
+HISTORY TACOP Release ='31DEC99 '  /********* Start 12-JUL-1996   12:57:07
+HISTORY TACOP INNAME='NGC6503     '   INCLASS='BASFIT'
+HISTORY TACOP INSEQ=    1   INDISK=  2
+HISTORY TACOP  INEXT='FG' INVERS=   1 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 12-JUL-1996   13:10:57
+HISTORY TACOP INNAME='NGC6503     '   INCLASS='BASFIT'
+HISTORY TACOP INSEQ=    1   INDISK=  2
+HISTORY TACOP  INEXT='FG' INVERS=   1 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 12-JUL-1996   13:11:18
+HISTORY TACOP INNAME='NGC6503     '   INCLASS='BASFIT'
+HISTORY TACOP INSEQ=    1   INDISK=  2
+HISTORY TACOP  INEXT='SN' INVERS=   7 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY TACOP Release ='31DEC99 '  /********* Start 12-JUL-1996   14:23:53
+HISTORY TACOP INNAME='NGC6503     '   INCLASS='BASFIT'
+HISTORY TACOP INSEQ=    1   INDISK=  2
+HISTORY TACOP  INEXT='FG' INVERS=   1 OUTVERS=   1
+HISTORY TACOP  NCOUNT=    1 /Number of tables to copy
+HISTORY TACOP  / Copied      1 tables
+HISTORY IMAGR RELEASE ='31DEC99 '  /********* Start 12-JUL-1996   16:39:49
+HISTORY IMAGR   INNAME ='NGC6503'
+HISTORY IMAGR   INCLASS ='UVLSF'
+HISTORY IMAGR   INSEQ =       1
+HISTORY IMAGR   QUAL =      -1
+HISTORY IMAGR   SELBAND =-1.00000E+00
+HISTORY IMAGR   SELFREQ =-1.00000E+00
+HISTORY IMAGR   FREQID =       1
+HISTORY IMAGR   DOCALIB =       1
+HISTORY IMAGR   GAINUSE =       1
+HISTORY IMAGR   DOPOL =      -1
+HISTORY IMAGR   BLVER =      -1
+HISTORY IMAGR   FLAGVER =       1
+HISTORY IMAGR   STOKES ='I'
+HISTORY IMAGR   BCHAN =       1
+HISTORY IMAGR   ECHAN =     127
+HISTORY IMAGR   NCHAV =       1
+HISTORY IMAGR   CHINC =       1
+HISTORY IMAGR   BIF =       1
+HISTORY IMAGR   EIF =       1
+HISTORY IMAGR   OUTNAME ='NGC6503'
+HISTORY IMAGR   CELLSIZE(  1) = 4.00000E+00
+HISTORY IMAGR   CELLSIZE(  2) = 4.00000E+00
+HISTORY IMAGR   NFIELD =       1
+HISTORY IMAGR   UVBXFN =       1
+HISTORY IMAGR   XTYPE =       5
+HISTORY IMAGR   YTYPE =       5
+HISTORY IMAGR   GAIN = 5.00000E-02
+HISTORY IMAGR   MINPATCH =      51
+HISTORY IMAGR   FACTOR =-3.00000E-01
+HISTORY IMAGR IMSIZE(*, 1)  =   512 ,   512
+HISTORY IMAGR FLDSIZE(*, 1) =   502 ,   502
+HISTORY IMAGR RASHIFT( 1)   =  0.00000E+00
+HISTORY IMAGR DECSHIFT( 1)  =  0.00000E+00
+HISTORY IMAGR NBOXES( 1)    =  1
+HISTORY IMAGR WIN(*, 1, 1) =    6,    6,  507,  507
+HISTORY SUBIM RELEASE ='31DEC99 '  /********* Start 14-JUL-1996   17:15:01
+HISTORY SUBIM INNAME='NGC6503     '   INCLASS='IMAP  '
+HISTORY SUBIM INSEQ=    1   INDISK=  3
+HISTORY SUBIM INTYPE ='MA'      USERID=   36
+HISTORY SUBIM OUTNAME='NGC6503     '   OUTCLASS='MCUBE '
+HISTORY SUBIM OUTSEQ=    1   OUTDISK=  4
+HISTORY SUBIM BLC    =    1,    1,    1,    1,    1,    1,    1
+HISTORY SUBIM TRC    =  512,  512,  127,    1,    1,    1,    1
+HISTORY SUBIM XINC   =    1      YINC =    1
+HISTORY SUBIM OPCODE = '    '
+HISTORY MCUBE Release= '31DEC99 '
+HISTORY MCUBE INNAME='NGC6503     '   INCLASS='ICLN  '
+HISTORY MCUBE INSEQ=   38   INDISK=  3
+HISTORY MCUBE In2seq =  60; In3seq =   1; Intype ='MA'
+HISTORY MCUBE OUTNAME='NGC6503     '   OUTCLASS='MCUBE '
+HISTORY MCUBE OUTSEQ=    1   OUTDISK=  4
+HISTORY MCUBE Blc=   1.,   1.,   1.,   1.,   1.,   1.,   1. / bottom left corner
+HISTORY MCUBE Trc= 512., 512.,   1.,   1.,   1.,   1.,   1. / top right corner
+HISTORY MCUBE Release= '31DEC99 '
+HISTORY MCUBE INNAME='NGC6503     '   INCLASS='ICLN  '
+HISTORY MCUBE INSEQ=   61   INDISK=  3
+HISTORY MCUBE In2seq =  90; In3seq =   1; Intype ='MA'
+HISTORY MCUBE OUTNAME='NGC6503     '   OUTCLASS='MCUBE '
+HISTORY MCUBE OUTSEQ=    1   OUTDISK=  4
+HISTORY MCUBE Blc=   1.,   1.,   1.,   1.,   1.,   1.,   1. / bottom left corner
+HISTORY MCUBE Trc= 512., 512.,   1.,   1.,   1.,   1.,   1. / top right corner
+HISTORY ISPEC  VERSION=  1  / plot file created 16-JUL-1996 11:01:00
+HISTORY ISPEC  VERSION=  2  / plot file created 16-JUL-1996 11:05:18
+HISTORY ISPEC  VERSION=  3  / plot file created 16-JUL-1996 11:11:26
+HISTORY MCUBE Release= '31DEC99 '
+HISTORY MCUBE INNAME='NGC6503     '   INCLASS='ICLN  '
+HISTORY MCUBE INSEQ=   63   INDISK=  3
+HISTORY MCUBE In2seq =  68; In3seq =   1; Intype ='MA'
+HISTORY MCUBE OUTNAME='NGC6503     '   OUTCLASS='MCUBE '
+HISTORY MCUBE OUTSEQ=    1   OUTDISK=  4
+HISTORY MCUBE Blc=   1.,   1.,   1.,   1.,   1.,   1.,   1. / bottom left corner
+HISTORY MCUBE Trc= 512., 512.,   1.,   1.,   1.,   1.,   1. / top right corner
+HISTORY SUBIM RELEASE ='31DEC99 '  /********* Start 17-JUL-1996   10:02:24
+HISTORY SUBIM INNAME='NGC6503     '   INCLASS='MCUBE '
+HISTORY SUBIM INSEQ=    1   INDISK=  4
+HISTORY SUBIM INTYPE ='MA'      USERID=   36
+HISTORY SUBIM OUTNAME='NGC6503     '   OUTCLASS='SUBIM '
+HISTORY SUBIM OUTSEQ=    1   OUTDISK=  3
+HISTORY SUBIM BLC    =   60,  160,   19,    1,    1,    1,    1
+HISTORY SUBIM TRC    =  430,  410,  107,    1,    1,    1,    1
+HISTORY SUBIM XINC   =    1      YINC =    1
+HISTORY SUBIM OPCODE = '    '
+ORIGIN  = 'AIPSUN-REGISTERED!!!!!!! 31DEC99'    /
+DATE    = '17/07/96'                    / File written on dd/mm/yy
+HISTORY AIPS   IMNAME='NGC6503     ' IMCLASS='SUBIM ' IMSEQ=   1     /
+HISTORY AIPS   USERNO=   36            /
+HISTORY AIPS   CLEAN BMAJ=  4.0037E-03 BMIN=  3.7038E-03 BPA= -88.86
+HISTORY AIPS   CLEAN NITER=        0 PRODUCT=0   / DIRTY MAP
+END
