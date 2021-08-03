@@ -12,7 +12,7 @@ morphed from V2 to V3, with many subtle changes, including in the 3.x series.
 
 **Title:   Data needs Code!**
 
-**Authors: Peter Teuben (UMD), Gustaaf van Moorsel (NRAO)
+**Authors: Peter Teuben (UMD), Gustaaf van Moorsel (NRAO)**
 
 There are plenty of data in our archives. But for many students
 finding these data comes with a hurdle how to get started with an
