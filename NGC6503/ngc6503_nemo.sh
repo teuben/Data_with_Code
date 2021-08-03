@@ -8,9 +8,10 @@ fits=ngc6503.cube.fits
 
 #                              a poor man's command line parser
 #                              to override the defaults
-foreach arg ($*)
+for arg in $*; do
    export $arg
 done
 
+rm -f ${fits}.ccd
+fitsccd in=$fits out=${fits}.ccd 
 
-fits in=$fits out=${fits}.mir op=xyin
