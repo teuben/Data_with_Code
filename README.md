@@ -44,14 +44,15 @@ There are two data-cubes available, from
 and 
 [1996](https://ui.adsabs.harvard.edu/abs/2009AJ....137.4718G),
 and (used to be) preserved by Eric Greisen on his 
-[ftp site](ftp://ftp.aoc.nrao.edu/pub/staff/egreisen/), but now also preserved here.
+[ftp site](ftp://ftp.aoc.nrao.edu/pub/staff/egreisen/),
+but now also preserved here as well.
 
 We will use the following implementations:
 
 1. classic **numpy** python, using astropy.io.fits to read the data (*jupyter notebook*)
 2. python using radio-astro-tools (*jupyter notebook*)
 3. AIPS ???
-3. CASA (*casa-python script*)
+3. CASA (*casa-python script*) - both the tools and task approach
 4. MIRIAD (*csh shell script*)
 5. NEMO (*bash shell script*)
 
