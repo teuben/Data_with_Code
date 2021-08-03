@@ -20,11 +20,12 @@ astronomical coordinates and a module that knows about data cubes, we
 repeat the previous case of NGC 6503 in this new framework. Not
 completed yet.
 
-## maskmoments
+## maskmoment
+
+https://github.com/tonywong94/maskmoment
 
 A neat python module, used for CARMA/EDGE data, to optimally extract
 moment maps based on flexible parameterized masking.
-
 
 ## CASA
 
@@ -32,6 +33,8 @@ Two approaches:   tools  and tasks
 
 ## miriad
 
+https://github.com/astroumd/miriad
 
 ## NEMO
 
+https://github.com/teuben/nemo
