@@ -29,11 +29,16 @@ moment maps based on flexible parameterized masking.
 
 ## CASA
 
+https://casa.nrao.edu/index.shtml
+
 Two approaches:   tools  and tasks
 
 ## miriad
 
 https://github.com/astroumd/miriad
+
+Note several versions are available:   CARMA (the original!), SMA, WSRT and ATCA, for this
+cube example they should all work.
 
 ## NEMO
 
