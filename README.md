@@ -1,7 +1,8 @@
 # Data with Code
 
-Old (FITS) data can "rot". What we really mean by this is that software has changed,
-and despite that there is the once-fits-always-fits principle, it does not work.
+Old (FITS) data can rot. What we usually mean by this is that software has changed,
+and despite that there is the once-fits-always-fits principle, the software
+does not work.
 
 The same actually applies to code. Compilers become more strict, and
 old code needs to be clarified and updated. The f77/g77/gfortran evolution has
