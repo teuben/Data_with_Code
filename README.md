@@ -1,7 +1,8 @@
 # Data with Code
 
-Old (FITS) data can "rot". What we really mean by this is that software has changed,
-and despite that there is the once-fits-always-fits principle, it does not work.
+Old (FITS) data can rot. What we usually mean by this is that software has changed,
+and despite that there is the once-fits-always-fits principle, the software
+does not work.
 
 The same actually applies to code. Compilers become more strict, and
 old code needs to be clarified and updated. The f77/g77/gfortran evolution has
@@ -12,7 +13,7 @@ morphed from V2 to V3, with many subtle changes, including in the 3.x series.
 
 **Title:   Data needs Code!**
 
-**Authors: Peter Teuben (UMD), Gustaaf van Moorsel (NRAO)
+**Authors: Peter Teuben (UMD), Gustaaf van Moorsel (NRAO)**
 
 There are plenty of data in our archives. But for many students
 finding these data comes with a hurdle how to get started with an
@@ -45,13 +46,14 @@ and
 [1996](https://ui.adsabs.harvard.edu/abs/2009AJ....137.4718G),
 and preserved by Eric Greisen on his 
 [ftp site](ftp://ftp.aoc.nrao.edu/pub/staff/egreisen/), but now also preserved here.
+but now also preserved here as well.
 
 We will use the following implementations:
 
 1. classic **numpy** python, using astropy.io.fits to read the data (*jupyter notebook*)
 2. python using radio-astro-tools (*jupyter notebook*)
 3. AIPS ???
-3. CASA (*casa-python script*)
+3. CASA (*casa-python script*) - both the tools and task approach
 4. MIRIAD (*csh shell script*)
 5. NEMO (*bash shell script*)
 

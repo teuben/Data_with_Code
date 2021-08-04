@@ -1,0 +1,20 @@
+XTENSION= 'BINTABLE'           / Extension type
+BITPIX  =                    8 / Binary data
+NAXIS   =                    2 / Table is a matrix
+NAXIS1  =                   12 / Width of table in bytes
+NAXIS2  =                    0 / Number of entries in table
+PCOUNT  =                    0 / Random parameter count
+GCOUNT  =                    1 / Group count
+TFIELDS =                    3 / Number of fields in each row
+EXTNAME = 'AIPS CC '           / AIPS table file
+EXTVER  =                    1 / Version number of table
+TFORM1  = '1E      '           / FORTRAN format of field  1
+TTYPE1  = 'FLUX            '   / Type (heading) of field  1
+TUNIT1  = 'JY      '           / Physical units of field  1
+TFORM2  = '1E      '           / FORTRAN format of field  2
+TTYPE2  = 'DELTAX          '   / Type (heading) of field  2
+TUNIT2  = 'DEGREES '           / Physical units of field  2
+TFORM3  = '1E      '           / FORTRAN format of field  3
+TTYPE3  = 'DELTAY          '   / Type (heading) of field  3
+TUNIT3  = 'DEGREES '           / Physical units of field  3
+END
