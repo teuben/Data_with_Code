@@ -37,13 +37,13 @@ Each dataset should be implemented in a number of ways (languages,
 scripts, packages), and produce a certain set of resulting values that
 future implementations can be regressed against.
 
-## NGC 6503
+## 1. NGC 6503
 
 There are two data-cubes available, from 
 [1984](https://ui.adsabs.harvard.edu/abs/1985AJ.....90.1038V)
 and 
 [1996](https://ui.adsabs.harvard.edu/abs/2009AJ....137.4718G),
-and (used to be) preserved by Eric Greisen on his 
+and preserved by Eric Greisen on his 
 [ftp site](ftp://ftp.aoc.nrao.edu/pub/staff/egreisen/), but now also preserved here.
 
 We will use the following implementations:
@@ -65,4 +65,4 @@ We will use the following implementations:
 * http://nbabel.org - N-body code implemented in many languages (and references therein)
 * CASA: https://casa.nrao.edu/index.shtml
 * MIRIAD: https://github.com/astroumd/miriad
-* NEMO: https://astronemo.readthedoc.io
+* NEMO: https://astronemo.readthedocs.io
