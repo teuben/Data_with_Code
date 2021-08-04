@@ -43,3 +43,10 @@ cube example they should all work.
 ## NEMO
 
 https://github.com/teuben/nemo
+
+
+# FITS headers
+
+There are a lot of FITS data cube "dialects", and this can complicate codes dealing with the details
+of the meta-data. The FITS WCS papers should set the standard, but despite this one more than often
+runs into a problem.
