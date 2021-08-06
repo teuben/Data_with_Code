@@ -30,7 +30,7 @@ moment maps based on flexible parameterized masking.
 ## CASA
 
 https://casa.nrao.edu/index.shtml
-
+ 
 Two approaches:   tools  and tasks
 
 ## miriad
@@ -50,3 +50,7 @@ https://github.com/teuben/nemo
 There are a lot of FITS data cube "dialects", and this can complicate codes dealing with the details
 of the meta-data. The FITS WCS papers should set the standard, but despite this one more than often
 runs into a problem.
+
+# References
+
+* https://learn.astropy.org/rst-tutorials/FITS-cubes.html - the *Working with FITS-cubes* astropy tutorial 
